@@ -4,9 +4,15 @@ public class Main {
         int DogsMaxSwimmingDistance = 10;
         int CatsMaxRunningDistance = 200;
 
-        abstract class Animal {
-            abstract void run(int runningDistance);
-            abstract void swim(int swimmingDistance);
+         class Animal {
+            void run(int runningDistance) {
+
+            }
+
+            void swim(int swimmingDistance) {
+
+            }
+
             static int animalCount = 0;
 
             Animal() {
