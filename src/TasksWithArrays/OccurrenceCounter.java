@@ -14,6 +14,10 @@ public class OccurrenceCounter {
                 counter++;
             }
         }
+
+
+
+
         System.out.println("The word " + targetWord + " occurs " + counter + " times.");
     }
 }
